@@ -1,0 +1,33 @@
+.downLoadPage{
+	width:100%;
+  .bg{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+  .down{
+    padding:30px 23px;
+    &>i{
+      display: block;
+      float: left;
+      width: 65px;
+      height: 65px;
+      background-image: url(/images/h5/icon.png);
+      background-size:65px auto;
+      background-repeat:no-repeat;
+    }
+    &>div{
+      float: right;
+      text-align: center;
+      width: 70%;
+      height: 53px;
+      line-height: 53px;
+      background-color:#27acfb;
+      color: #fff;
+      font-size: 19px;
+      border-radius: 5px;
+      margin-top: 6px;
+    }
+  }
+}

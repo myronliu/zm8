@@ -1,0 +1,32 @@
+.findloginpwd{
+  background-color: #ededf2;
+  .centerDiv{
+    margin-top: 0px;
+    background: white;
+  }
+  .button{
+    padding:15px;
+
+  }
+  .toptip{
+    padding-left: 15px;
+    height: 30px;
+    line-height: 30px;
+    &>div{
+      background-image: url("/images/h5/iocn_ts.png");
+      background-repeat: no-repeat;
+      height: 30px;
+      width: 30px;
+      display: inline-block;
+      background-size: 20px 20px;
+      background-position-y: 5px;
+      vertical-align: top;
+    }
+    &>span{
+      line-height: 30px;
+      height: 30px;
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+}

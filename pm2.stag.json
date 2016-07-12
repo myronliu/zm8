@@ -1,0 +1,19 @@
+{
+  "apps":[
+    {
+      "name": "h5hry_uat",
+      "script": "/opt/app/h5hry/current/app.js",
+      "watch": true,
+      "log_file"   : "/opt/logs/h5hry/log.log",
+      "error_file" : "/opt/logs/h5hry/err.log",
+      "out_file"   : "/opt/logs/h5hry/out.log",
+      "pid_file"   : "/opt/logs/h5hry/pm2.pid",
+      "merge_logs" : true,
+      "log_date_format" : "YYYY-MM-DD HH:mm Z",
+      "env": {
+        "NODE_ENV": "staging"
+      },
+      "port": 3999
+    }
+  ]
+}
