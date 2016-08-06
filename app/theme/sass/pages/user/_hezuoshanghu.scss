@@ -1,0 +1,14 @@
+.hezuoshanghu{
+  padding: 5%;
+  padding-top: 10px;
+  background-color: #eaeaea;
+  height: 100%;
+  &>img{
+    width: 49%;
+    padding: 10px;
+    border: 1px solid;
+    background-color: white;
+    max-height: 70px;
+    height: 60px;
+  }
+}

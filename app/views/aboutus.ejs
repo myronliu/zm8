@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head >
+  <title><%= typeof title === 'undefined' ? '赚米吧': title %></title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+  <script type="text/javascript">
+    window.onload = function(){
+      document.getElementsByTagName('html')[0].style.cssText="font-size:" + document.body.clientWidth/375 * 62.5 +"%;";
+    }
+  </script>
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/css/font-awesome/css/font-awesome.min.css">
+
+</head>
+<body>
+<header id="header">
+  <%- typeof headerData === 'undefined'?'':headerData %>
+</header>
+<div id="container">
+  <div class="aboutus">
+    <div class="section-inner">
+      <div class="title">
+        赚米吧
+      </div>
+      <div class="content">
+        一个可以赚钱的平台
+      </div>
+    </div>
+  </div>
+  <div class="jieshao">
+    <div class="title">平台简介</div>
+    <div class="content">赚米吧是一个优秀的平台，我们怎么则么但撒发生的看法少雷风景吧吧吧啦吧啦不见啦悲剧啊来不及啦吧吧啦吧啦吧啦吧吧啦啦吧啦吧啦吧</div>
+    <div class="title">联系方式</div>
+    <div class="content">QQ: 2395111420</div>
+    <div class="content">Tel: 13721989388</div>
+    <div class="content">Email: 1372188@qq.com</div>
+  </div>
+</div>
+</body>
+<script><%- typeof stateData === 'undefined'?'':stateData%></script>
+
+<!-- build:js -->
+<!-- <script type="text/javascript" src="/bundle.js"></script> -->
+<!-- endbuild -->
+</html>

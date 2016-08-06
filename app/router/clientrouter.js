@@ -19,14 +19,14 @@ var Router = EvoFlux.createRouter({
     ReactDOM.render(<ErrorView message={"出错啦！"}/>, container);
   },
   '/': function(){
-    Exp.rehydrate();
-    var items = Exp.getItems();
-    ReactDOM.render(<Index data={items}/>, container);
+    // Exp.rehydrate();
+    // var items = Exp.getItems();
+    ReactDOM.render(<Index />, container);
   },
   '/index': function(){
-    Exp.rehydrate();
-    var items = Exp.getItems();
-    ReactDOM.render(<Index data={items}/>, container);
+    // Exp.rehydrate();
+    // var items = Exp.getItems();
+    ReactDOM.render(<Index />, container);
   },
   '/download': function(){
     ReactDOM.render(<DownLoad />, container);

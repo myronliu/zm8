@@ -45,6 +45,7 @@ router.use(function(req,res,next){
 var ErrorView = React.createFactory(require('../pages/error'));
 var DownLoad = React.createFactory(require('../pages/download'));
 var Index = React.createFactory(require('../pages/index/index'));
+var AboutUs = React.createFactory(require('../pages/user/aboutus'));
 
 
 // models
@@ -85,6 +86,16 @@ router.get(['/','/index'],function(req,res){
 router.get('/download',function(req,res){
   var reactHtml = ReactDOMServer.renderToString(DownLoad());
   res.render('index', {reactOutput: reactHtml,title:'下载'});
+})
+
+router.get('/aboutus', function(req, res){
+  // var reactHtml = ReactDOMServer.renderToString(AboutUs());
+  res.render('aboutus', {reactOutput: ''});
+})
+
+router.get('/hezuoshanghu', function(req, res){
+  // var reactHtml = ReactDOMServer.renderToString(AboutUs());
+  res.render('hezuoshanghu', {reactOutput: ''});
 })
 
 module.exports = router;
