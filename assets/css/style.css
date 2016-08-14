@@ -1113,19 +1113,165 @@ input[type="button"] {
   color: black;
 }
 
-/* line 1, ../../app/theme/sass/pages/user/_hezuoshanghu.scss */
-.hezuoshanghu {
+/* line 1, ../../app/theme/sass/pages/download/_download.scss */
+.downLoadPage {
+  margin: 0;
+  padding: 0;
+  background-color: #1ba0ea;
+  height: 100%;
+}
+/* line 6, ../../app/theme/sass/pages/download/_download.scss */
+.downLoadPage .browser-style {
+  float: right;
+  width: 60px;
+}
+/* line 10, ../../app/theme/sass/pages/download/_download.scss */
+.downLoadPage .headera {
+  width: 100%;
+  height: 237px;
+  position: relative;
+  box-shadow: none;
+}
+/* line 15, ../../app/theme/sass/pages/download/_download.scss */
+.downLoadPage .headera .header-wrap {
+  bottom: 35px;
+  width: 100%;
+  padding-top: 100px;
+}
+/* line 19, ../../app/theme/sass/pages/download/_download.scss */
+.downLoadPage .headera .header-wrap .logo {
+  background: url(/images/h5/icon.png) no-repeat;
+  background-size: 100% auto;
+  width: 55px;
+  height: 55px;
+  bottom: 55px;
+  margin: 0px auto;
+}
+/* line 27, ../../app/theme/sass/pages/download/_download.scss */
+.downLoadPage .headera .header-wrap .ctn {
+  font-size: 9px;
+  color: #b3e5fc;
+  height: 12px;
+  left: 50%;
+  text-align: center;
+  bottom: 55px;
+  margin-top: 20px;
+}
+/* line 38, ../../app/theme/sass/pages/download/_download.scss */
+.downLoadPage .p2 {
+  height: 63px;
+  color: #b3e5fc;
+  font-size: 15px;
+  text-align: center;
+}
+/* line 43, ../../app/theme/sass/pages/download/_download.scss */
+.downLoadPage .p2 > p {
+  margin-bottom: 10px;
+}
+/* line 47, ../../app/theme/sass/pages/download/_download.scss */
+.downLoadPage .p3 {
+  margin-top: 30px;
+  height: 60px;
+  position: relative;
+}
+/* line 51, ../../app/theme/sass/pages/download/_download.scss */
+.downLoadPage .p3 .dl {
+  width: 70%;
+  margin: 0 15%;
+  height: 47px;
+  line-height: 47px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+/* line 64, ../../app/theme/sass/pages/download/_download.scss */
+.downLoadPage .p4 {
+  margin: 19px auto;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+
+/* line 1, ../../app/theme/sass/pages/user/_hezuopingtai.scss */
+.hezuopingtai {
   padding: 5%;
   padding-top: 10px;
   background-color: #eaeaea;
   height: 100%;
 }
-/* line 6, ../../app/theme/sass/pages/user/_hezuoshanghu.scss */
-.hezuoshanghu > img {
+/* line 6, ../../app/theme/sass/pages/user/_hezuopingtai.scss */
+.hezuopingtai > img {
   width: 49%;
   padding: 10px;
   border: 1px solid;
   background-color: white;
   max-height: 70px;
   height: 60px;
+}
+
+/* line 2, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
+.shanghuhezuo .gongying {
+  text-align: center;
+  font-size: 24px;
+  line-height: 70px;
+  background-color: white;
+  border-bottom: 1px solid;
+  border-bottom-color: black;
+  color: #3a3a3a;
+}
+/* line 11, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
+.shanghuhezuo .item {
+  padding: 20px 10px;
+  border-bottom: 1px solid;
+  border-bottom-color: gainsboro;
+}
+/* line 15, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
+.shanghuhezuo .item > img {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  float: left;
+}
+/* line 21, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
+.shanghuhezuo .item .content {
+  height: 60px;
+  margin-left: 10px;
+  display: inline-block;
+}
+/* line 25, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
+.shanghuhezuo .item .content .title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+}
+/* line 30, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
+.shanghuhezuo .item .content .message {
+  height: 30px;
+  line-height: 30px;
+}
+
+/* line 1, ../../app/theme/sass/pages/user/_ruhezhuanqian.scss */
+.ruhezhuanqian {
+  padding: 10px;
+}
+/* line 4, ../../app/theme/sass/pages/user/_ruhezhuanqian.scss */
+.ruhezhuanqian .title {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+/* line 9, ../../app/theme/sass/pages/user/_ruhezhuanqian.scss */
+.ruhezhuanqian .title-x {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: blue;
+}
+/* line 15, ../../app/theme/sass/pages/user/_ruhezhuanqian.scss */
+.ruhezhuanqian .title-xx {
+  padding: 5px 0px;
+  font-weight: bold;
 }

@@ -93,9 +93,19 @@ router.get('/aboutus', function(req, res){
   res.render('aboutus', {reactOutput: ''});
 })
 
-router.get('/hezuoshanghu', function(req, res){
+router.get('/hezuopingtai', function(req, res){
   // var reactHtml = ReactDOMServer.renderToString(AboutUs());
-  res.render('hezuoshanghu', {reactOutput: ''});
+  res.render('hezuopingtai', {reactOutput: ''});
+})
+
+router.get('/shanghuhezuo', function(req, res){
+  // var reactHtml = ReactDOMServer.renderToString(AboutUs());
+  res.render('shanghuhezuo', {reactOutput: ''});
+})
+
+router.get('/ruhezhuanqian', function(req, res){
+  // var reactHtml = ReactDOMServer.renderToString(AboutUs());
+  res.render('ruhezhuanqian', {reactOutput: ''});
 })
 
 module.exports = router;

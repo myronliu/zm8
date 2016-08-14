@@ -1,33 +1,70 @@
 .downLoadPage{
-	width:100%;
-  .bg{
+	margin: 0;
+  padding: 0;
+  background-color: #1ba0ea;
+  height: 100%;
+  .browser-style{
+    float: right; 
+    width: 60px;
+  }
+  .headera{
     width: 100%;
-    img{
+    height: 237px;
+    position: relative;
+    box-shadow: none;
+    .header-wrap{
+      bottom: 35px;
       width: 100%;
+      padding-top: 100px;
+      .logo{
+        background: url(/images/h5/icon.png) no-repeat;
+        background-size: 100% auto;
+        width: 55px;
+        height: 55px;
+        bottom: 55px;
+        margin: 0px auto
+      }
+      .ctn{
+        font-size: 9px;
+        color: #b3e5fc;
+        height: 12px;
+        left: 50%;
+        text-align: center;
+        bottom: 55px;
+        margin-top: 20px;
+      }
     }
   }
-  .down{
-    padding:30px 23px;
-    &>i{
-      display: block;
-      float: left;
-      width: 65px;
-      height: 65px;
-      background-image: url(/images/h5/icon.png);
-      background-size:65px auto;
-      background-repeat:no-repeat;
+  .p2{
+    height: 63px;
+    color: #b3e5fc;
+    font-size: 15px;
+    text-align: center;
+    &>p{
+      margin-bottom: 10px;
     }
-    &>div{
-      float: right;
-      text-align: center;
+  }
+  .p3{
+    margin-top: 30px;
+    height: 60px;
+    position: relative;
+    .dl{
       width: 70%;
-      height: 53px;
-      line-height: 53px;
-      background-color:#27acfb;
-      color: #fff;
-      font-size: 19px;
+      margin: 0 15%;
+      height: 47px;
+      line-height: 47px;
+      font-size: 20px;
+      letter-spacing: 3px;
+      border: 1px solid #fff;
       border-radius: 5px;
-      margin-top: 6px;
+      color: white;
+      text-align: center;
     }
+  }
+  .p4{
+    margin: 19px auto;
+    font-size: 10px;
+    color: white;
+    text-align: center;
   }
 }
