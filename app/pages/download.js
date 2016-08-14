@@ -4,17 +4,125 @@ export default class DownLoad extends React.Component {
   download(){
     // window.to('http://a.app.qq.com/o/simple.jsp?pkgname=com.haier.hairy');
     if (navigator.userAgent.match(/(iPhone|iPod|iPad);?/i)) {
-      var loadDateTime = new Date();
-      window.setTimeout(function() {
-        var timeOutDateTime = new Date();
-        if (timeOutDateTime - loadDateTime < 5000) {
-        } else {
-          window.location = "https://itunes.apple.com/cn/app/wei-xin/id414478124?mt=8";
-          // window.close();
-        } 
-      },
-      25);
-      window.location = "QiTui://";
+      // var loadDateTime = new Date();
+      // window.setTimeout(function() {
+      //   var timeOutDateTime = new Date();
+      //   if (timeOutDateTime - loadDateTime < 5000) {
+      //     debugger;
+      //   } else {
+      //     window.location = "https://itunes.apple.com/cn/app/wei-xin/id414478124?mt=8";
+      //   } 
+      // },
+      // 25);
+      // window.location = "Ctripa://";
+
+      window.location = "https://itunes.apple.com/cn/app/wei-xin/id414478124?mt=8";
+
+      // function ios(){
+      //   var ifr = document.createElement("iframe");
+      //   ifr.src = "Ctrip://"; /***打开app的协议，有ios同事提供***/
+      //   ifr.style.display = "none"; 
+      //   document.body.appendChild(ifr);
+      //   window.setTimeout(function(){
+      //     document.body.removeChild(ifr);
+      //      window.location.href = "http://www.wjtr.com/download/index.html"; /***下载app的地址***/
+      //   },2000)
+      // };
+
+      // var loadDateTime = new Date();
+
+      // var ifr = document.createElement("iframe"); 
+      // ifr.setAttribute('src', 'Ctrip://'); 
+      // ifr.setAttribute('style', 'display:none'); 
+
+      // window.setTimeout(function() 
+      //   {
+      //     var timeOutDateTime = new Date();
+      //     if (timeOutDateTime - loadDateTime < 400) {
+      //      window.location = "https://itunes.apple.com/cn/app/wei-xin/id414478124?mt=8";
+      //     } else {
+      //      // window.close();
+      //     }
+      //   },
+      //   200
+      // );
+      // // window.location = "Ctripa://";
+      // // alert("dd")
+      // document.body.appendChild(ifr); 
+      // window.location = "Ctripa://";
+
+      // var ifr = document.createElement("iframe");
+      // ifr.src = "Ctrip://";  /***打开app的协议，有ios同事提供***/
+      // ifr.style.display = "none"; 
+      // document.body.appendChild(ifr);
+      // window.setTimeout(function(){
+      //     document.body.removeChild(ifr);
+      //      window.location = "https://itunes.apple.com/cn/app/wei-xin/id414478124?mt=8"; /***下载app的地址***/
+      // },2000)
+
+      // var timeout, t = 1000, hasApp = true;  
+      // setTimeout(function () {  
+      //     if (hasApp) {  
+      //         alert('安装了app');  
+      //     } else {  
+      //         alert('未安装app');  
+      //     }  
+      //     document.body.removeChild(ifr);  
+      // }, 2000)  
+    
+      // var t1 = Date.now();  
+      // var ifr = document.createElement("iframe");  
+      // ifr.setAttribute('src', 'weixin://');  
+      // ifr.setAttribute('style', 'display:none');  
+      // document.body.appendChild(ifr);  
+      // timeout = setTimeout(function () {  
+      //      var t2 = Date.now();  
+      //      if (!t1 || t2 - t1 < t + 100) {  
+      //          hasApp = false;  
+      //      }  
+      // }, t); 
+
+      // var timeout, t = 1000, hasApp = true; 
+      // setTimeout(function () { 
+      //   if (hasApp) { 
+      //     alert('安装了app'); 
+      //   } else { 
+      //     alert('未安装app'); 
+      //   } 
+      //   document.body.removeChild(ifr); 
+      // }, 1400) 
+      
+      // var t1 = Date.now(); 
+      // var ifr = document.createElement("iframe"); 
+      // ifr.setAttribute('src', 'QiTui://'); 
+      // ifr.setAttribute('style', 'display:none'); 
+      // document.body.appendChild(ifr); 
+      // timeout = setTimeout(function () { 
+      //    var t2 = Date.now(); 
+      //    if (!t1 || t2 - t1 < 1200) { 
+      //      hasApp = false; 
+      //    } 
+      // }, t); 
+
+      // var startTime = Date.now();
+      // var ifr = document.createElement('iframe');
+      // ifr.src = "Ctrip://"; /***打开app的协议，有ios同事提供***/
+      // ifr.style.display = 'none';
+      // document.body.appendChild(ifr);
+
+      // var t = setTimeout(function() {
+      //     var endTime = Date.now();
+      //     if (!startTime || endTime - startTime < 5000) { 
+      //         window.location = "https://itunes.apple.com/cn/app/wei-xin/id414478124?mt=8";
+      //     } else {
+
+      //     }
+      // }, 600);
+
+      // window.onblur = function() {
+      //     clearTimeout(t);
+      // }
+
     }else if (navigator.userAgent.match(/android/i)) {
       var state = null;
       try {
@@ -28,6 +136,7 @@ export default class DownLoad extends React.Component {
     }
 
 
+    
 //     var u = navigator.userAgent;
 //     debugger;
 //     var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
