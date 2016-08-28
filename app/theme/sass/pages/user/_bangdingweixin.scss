@@ -1,0 +1,21 @@
+.bangdingweixin{
+  .gongying{
+    text-align: center;
+    font-size: 24px;
+    line-height: 70px;
+    background-color: #d84014;
+    border-bottom: 1px solid;
+    border-bottom-color: #d84014;
+    color: #fff;
+  }
+  .bz{
+    margin: 10px 5%;
+    font-size: 20px;
+    color: #333;
+    font-weight: bolder;
+  }
+  &>img{
+    width: 90%;
+    margin: 5px 5%;
+  }
+}

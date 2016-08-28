@@ -108,4 +108,9 @@ router.get('/ruhezhuanqian', function(req, res){
   res.render('ruhezhuanqian', {reactOutput: ''});
 })
 
+router.get('/bangdingweixin', function(req, res){
+  // var reactHtml = ReactDOMServer.renderToString(AboutUs());
+  res.render('bangdingweixin', {reactOutput: ''});
+})
+
 module.exports = router;

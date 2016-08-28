@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head >
+  <title><%= typeof title === 'undefined' ? '赚米吧': title %></title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+  <script type="text/javascript">
+    window.onload = function(){
+      document.getElementsByTagName('html')[0].style.cssText="font-size:" + document.body.clientWidth/375 * 62.5 +"%;";
+    }
+  </script>
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/css/font-awesome/css/font-awesome.min.css">
+
+</head>
+<body>
+<header id="header">
+  <%- typeof headerData === 'undefined'?'':headerData %>
+</header>
+<div id="container">
+  <div class="bangdingweixin">
+    <div class="gongying">
+      共赢平台，生意更省心
+    </div>
+    <div class="bz">
+      1）：扫描二维码
+    </div>
+    <img src="/images/h5/bz1.png" />
+    <div class="bz">
+      2）：关注公众号
+    </div>
+    <img src="/images/h5/bz2.png" />
+    <div class="bz">
+      3）：获取支付账号
+    </div>
+    <img src="/images/h5/bz3.png" />
+    <div class="bz">
+      4）：返回app
+    </div>
+    <img src="/images/h5/bz4.png" />
+    <div class="bz">
+      5）：输入支付账号，并且点击绑定
+    </div>
+    <img src="/images/h5/bz5.png" />
+      
+  </div>
+</div>
+</body>
+<script><%- typeof stateData === 'undefined'?'':stateData%></script>
+
+<!-- build:js -->
+<!-- <script type="text/javascript" src="/bundle.js"></script> -->
+<!-- endbuild -->
+</html>

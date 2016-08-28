@@ -1230,11 +1230,11 @@ input[type="button"] {
 }
 /* line 15, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
 .shanghuhezuo .item > img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   display: inline-block;
   float: left;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 /* line 22, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
 .shanghuhezuo .item .content {
@@ -1253,6 +1253,7 @@ input[type="button"] {
 .shanghuhezuo .item .content .message {
   height: 30px;
   line-height: 30px;
+  color: blue;
 }
 
 /* line 1, ../../app/theme/sass/pages/user/_ruhezhuanqian.scss */
@@ -1276,4 +1277,27 @@ input[type="button"] {
 .ruhezhuanqian .title-xx {
   padding: 5px 0px;
   font-weight: bold;
+}
+
+/* line 2, ../../app/theme/sass/pages/user/_bangdingweixin.scss */
+.bangdingweixin .gongying {
+  text-align: center;
+  font-size: 24px;
+  line-height: 70px;
+  background-color: #d84014;
+  border-bottom: 1px solid;
+  border-bottom-color: #d84014;
+  color: #fff;
+}
+/* line 11, ../../app/theme/sass/pages/user/_bangdingweixin.scss */
+.bangdingweixin .bz {
+  margin: 10px 5%;
+  font-size: 20px;
+  color: #333;
+  font-weight: bolder;
+}
+/* line 17, ../../app/theme/sass/pages/user/_bangdingweixin.scss */
+.bangdingweixin > img {
+  width: 90%;
+  margin: 5px 5%;
 }
