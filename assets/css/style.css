@@ -1206,7 +1206,7 @@ input[type="button"] {
 .hezuopingtai > img {
   width: 49%;
   padding: 10px;
-  border: 1px solid;
+  border: 1px solid #d84014;
   background-color: white;
   max-height: 70px;
   height: 60px;
@@ -1217,10 +1217,10 @@ input[type="button"] {
   text-align: center;
   font-size: 24px;
   line-height: 70px;
-  background-color: white;
+  background-color: #d84014;
   border-bottom: 1px solid;
-  border-bottom-color: black;
-  color: #3a3a3a;
+  border-bottom-color: #d84014;
+  color: #fff;
 }
 /* line 11, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
 .shanghuhezuo .item {
@@ -1230,24 +1230,26 @@ input[type="button"] {
 }
 /* line 15, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
 .shanghuhezuo .item > img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   display: inline-block;
   float: left;
+  margin-top: 5px;
 }
-/* line 21, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
+/* line 22, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
 .shanghuhezuo .item .content {
   height: 60px;
   margin-left: 10px;
   display: inline-block;
+  color: #333;
 }
-/* line 25, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
+/* line 27, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
 .shanghuhezuo .item .content .title {
   font-size: 20px;
   font-weight: bold;
   line-height: 30px;
 }
-/* line 30, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
+/* line 32, ../../app/theme/sass/pages/user/_shanghuhezuo.scss */
 .shanghuhezuo .item .content .message {
   height: 30px;
   line-height: 30px;
